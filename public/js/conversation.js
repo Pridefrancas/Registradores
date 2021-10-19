@@ -170,7 +170,7 @@ var ConversationPanel = (function() {
       } else {
         var userTypringField = document.getElementById('user-typing-field');
         if (res.typing) {
-          userTypringField.innerHTML = 'Watson Assistant Typing...';
+          userTypringField.innerHTML = 'O assistente está digitando...';
         }
         setTimeout(function() {
           userTypringField.innerHTML = '';
